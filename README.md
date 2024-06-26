@@ -25,6 +25,7 @@ A simple web app to manage and track your personal finances.
    ```bash
    npm install
 
-2. **Install dependencies:**
+3. **Add environment variables:**<br>
+   Create a .env file in the root directory and add your Clerk publishable key.
    ```bash
-   npm install
+   VITE_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
