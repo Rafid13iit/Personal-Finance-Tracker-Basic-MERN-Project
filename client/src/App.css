@@ -1,0 +1,43 @@
+.app-container {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 60px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar a {
+  color: white;
+  margin-right: 20px;
+  font-weight: bold;
+  transition: color var(--transition-duration);
+}
+
+.navbar a:hover {
+  color: var(--accent-color);
+}
+
+.clerk-user-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: color var(--transition-duration);
+}
+
+.clerk-user-button:hover {
+  color: var(--accent-color);
+}
